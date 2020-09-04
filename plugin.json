@@ -1,11 +1,11 @@
 {
     "name": "SiteAccessProvisioner",
     "description": "Provides a simple method to provision access to site analytics. Integration with Content Management System is highly advised.",
-    "version": "3.0.1",
+    "version": "4.0.1",
     "theme": false,
     "require": {
-        "piwik": ">=3.6.0,<4.0.0-b1",
-		"php": ">=7.0.0"
+        "matomo": ">=4.0.0-b1,<5.0.0-b1",
+	"php": ">=7.0.0"
     },
     "authors": [
         {
