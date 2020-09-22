@@ -37,7 +37,7 @@ class SystemSettings extends \Piwik\Settings\Plugin\SystemSettings
             $field->title = 'Shared Secret';
             $field->uiControl = FieldConfig::UI_CONTROL_TEXT;
             $field->description = 'Set the shared secret. This value should not be exposed to users.';
-			$field->inlineHelp = '<br /><strong>NOTICE:</strong> The access provider must use this same value for its secret.<br /><br /><a target="_blank" href="">How do I create an access provider?</a>';
+			$field->inlineHelp = '<br /><strong>NOTICE:</strong> The access provider must use this same value for its secret.<br /><br /><a target="_blank" href="https://github.com/jbrule/matomoplugin-SiteAccessProvisioner">How do I create an access provider?</a>';
             $field->validators[] = new NotEmpty();
 			$field->validators[] = new CharacterLength(10,500);
         });
