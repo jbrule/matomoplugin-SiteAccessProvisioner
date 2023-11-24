@@ -1,17 +1,17 @@
 {
     "name": "SiteAccessProvisioner",
     "description": "Provides a simple method to provision access to site analytics. Integration with Content Management System is highly advised.",
-    "version": "4.0.1",
+    "version": "5.0.0",
     "theme": false,
     "require": {
-        "matomo": ">=4.0.0-b1,<5.0.0-b1",
+        "matomo": ">=5.0.0-b1,<6.0.0-b1",
 	"php": ">=7.0.0"
     },
     "authors": [
         {
             "name": "Josh Brule",
             "email": "",
-            "homepage": "https:\/\/www.linkedin.com\/pub\/joshua-brule\/15\/326\/9b9"
+            "homepage": "https:\/\/github.com\/jbrule"
         }
 	],
     "homepage": "https:\/\/github.com\/jbrule\/matomoplugin-SiteAccessProvisioner",

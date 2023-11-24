@@ -5,8 +5,10 @@ Plugin for the Matomo Web Analytics software package that facilitates an easy pr
 
 ## Instructions
 The easiest way to install is to find the plugin in the [Matomo Marketplace](https://plugins.matomo.org/).
-A shared secret must be etablished before the plugin will function.
+A shared secret must be etablished before the plugin will function. You can set that in `Admin -> System -> General Settings`
 You will then need to implement an access provider (see example code below) which will generate an access request link users can use.
+
+NOTICE: Users need to have read access to at least 1 website. When you create user accounts give the users access to a "lobby" website. if using LoginLdap utilize the *Initial sites With View Access for New Users* feature to provide access to the lobby website.
 
 ## Usage
 
